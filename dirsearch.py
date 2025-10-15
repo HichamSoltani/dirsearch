@@ -16,9 +16,7 @@ def request(url):
             return response.status_code
 
         except Exception as err:
-#        if sys.argv[2] == 's':
-#            print(err)
-#            exit()
+            
             try:
                 requests.head("https://www.google.com/", timeout=5)
                 if i < max_t:
