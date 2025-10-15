@@ -62,7 +62,7 @@ for i in sys.argv:
         break
 
 output_file_path = "/sdcard/dirsearch_200.txt"
-url = sys.argv[1] # "https://www.univ-msila.dz/en/"
+url = sys.argv[1] 
 
 for i in sys.argv:
     if "-h" in i:
