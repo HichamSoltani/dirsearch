@@ -26,8 +26,7 @@ def request(url):
                     continue
             except:
                 if i < max_t:
-                    #os.system("play -n synth 0.3 sin 1000")
-                    #
+                    
                     #beep or notify me the connection is gone
                     #(stop program until connecion is back)
                     while True:
@@ -266,7 +265,6 @@ with open(path) as file:
                     write(line, code)
 
         if code == 200:
-            #threading.Thread(target=write, args=(str(line))).start()
             write(line)
 
         while len(dir)>30:
@@ -283,15 +281,4 @@ except:
     i = -1
 print(f"done {i+1} / {len(data)}")
 
-
-#st = time.time()
-#for i in range(1,10**7):
-    #print(f"result{i}\t",end="\r")
-    #time.sleep(0.000)
-    #pass
-    #a = i/i
-    #print(end="\r")
-    #print(i , end="")
-#print("<>")
-#print(time.time()-st)
 
