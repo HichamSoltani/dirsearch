@@ -19,7 +19,7 @@ All required files are included — just clone or download this repository and r
 ## Requirements
 
 * Python 3.x
-* (Optional) Install dependencies if `requirements.txt` exists:
+* Install dependencies `requirements.txt` :
 
 ```bash
 pip install -r requirements.txt
