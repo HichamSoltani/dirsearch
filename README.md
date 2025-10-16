@@ -59,7 +59,7 @@ Below are the supported arguments, a short description, and ready-to-copy exampl
 | `-find:<str>`    | string | Only include words that **contain** this substring.         |                                                      |
 | `-nofind:<str>`  | string | Exclude words that **contain** this substring.              |                                                      |
 | `-all`           | flag   | Show all status codes **except** `404`.                     |                                                      |
-| `-no`            | flag   | Do **not** write a log file.                                |                                                      |
+| `-no`            | flag   | Do **not** write in log file.                                |                                                      |
 | `-api`           | flag   | Use built-in `api` default wordlist.                        |                                                      |
 
 ---
